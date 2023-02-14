@@ -1,0 +1,115 @@
+
+
+body{
+    margin: 0;
+    text-align: center;
+    /* overflow-x: hidden; */
+} 
+/* .topLogo{
+        visibility: hidden;
+} */
+.headerNavbar{
+    background-color : #404eed ;
+}
+.headContainer{
+    background-color: #404eed;
+}
+.headerList:hover{
+ text-decoration: underline;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.loginButton1:hover{
+    box-shadow: 0 0 16px rgba(33,0,0,.2); 
+}
+@media only screen and (min-width: 768px){
+    .loginButtonList{
+        display:none;
+    }
+    .heroBtn3,.heroBtn4{
+        text-align: start;
+    }
+}
+@media only screen and (max-width:300px){
+    .navbar-toggler{
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px){
+    .loginButton{
+        display: none;
+    }
+}
+
+/* navbar end  */
+
+.masthead{
+    background-size:cover ;
+    min-height: 70vh;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 72vh;
+}
+.test{
+    position: absolute;
+    margin-top: 15%;
+}
+
+ 
+
+
+/* middle row */
+.inviteColumn{
+    text-align: start;
+}
+.hangloutColumn{
+ text-align: start;
+}
+.fandomColumn{
+    text-align: start;
+    margin-left: 4rem;
+}
+
+.hangout,.reliableImage{
+    background-color: #f6f6f6;
+}
+.downloadButton{
+    background-color: #5865f2;
+}
+.downloadButton:hover{
+    background-color: #5865f2;
+    
+}
+
+/* middle row end */
+
+/* Footer */
+.signUpButton{
+    background-color: #404eed;
+    border:none;
+   }
+   .signUpButton:hover{
+       background-color:  #404eed;
+   }
+   .FooterFonth1{
+       line-height: 100%;
+   }
+   .FooterFontColor,.FooterFonth1{
+       color:  #404eed;
+   }   
+   .footerListItems{
+       text-decoration: none;
+   }
+   .footerListItems:hover{
+       text-decoration: underline;
+   }
+   .my-3{
+    border-color: #404eed;
+   }
